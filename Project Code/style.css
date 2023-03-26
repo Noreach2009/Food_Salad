@@ -1,0 +1,349 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:lightgreen;
+    color: whitesmoke;
+   
+    
+}
+
+ion-icon {
+    font-size: 25px;
+}
+
+.icons {
+    padding: 10px;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    justify-content:space-between;
+
+}
+
+nav a {
+    color: darkgreen;
+}
+
+.span {
+    color: rgb(184, 184, 83);
+}
+
+.logo-name h4 {
+    font-size: 24px;   
+}
+
+.logo-name h4:hover {
+    font-size: 26px;
+}
+
+nav {
+    display: none;
+    text-decoration: none;
+}
+
+nav a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    
+
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    background-image:url(./images/salad2.jpeg);
+    background-position: center;
+    background-size: cover;    
+}
+
+.Welcome {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+    color: white;
+    
+
+}
+
+.Welcome h1 {
+    font-size: 27px;
+    margin-bottom: 20px;    
+}
+
+
+
+
+
+.section-title  {
+    color:seagreen;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.section-title1 {
+    text-align: center;
+    color: white;
+    font-size: 22px ;
+}
+
+.breakfast-card {
+    padding: 15px;
+    gap: 15px;
+    display: grid;
+    color: whitesmoke;
+    font-size: 16px;
+
+    width: 100%;
+    height: 350px;
+
+    border: 3px solid white;
+
+
+}
+
+
+
+.stars {
+    color: yellow;
+}
+
+.breakfast-card img {
+    height: 150px;
+    width: 100%;
+    
+
+}
+
+.card {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    gap: 5px;
+}
+
+.review {
+    display: grid;
+    gap: 25px;
+    padding: 15px;
+}
+
+.review-card {
+    background-color: lightsalmon;
+
+    display: grid;
+    padding: 15px;
+    
+    
+}
+
+.review-card h3 {
+    color: brown;
+}
+
+.review-card .star {
+    color: yellow;
+}
+
+.Location {
+    height:600px;
+    padding: 30px;
+
+}
+
+iframe{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-box {
+    width: 850px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,fr);
+
+
+}
+
+.row a {
+    
+    color: black;
+    border-radius: 3px;
+    font-weight: 600;
+    border: 3px solid whitesmoke;
+    padding: 9px;
+    text-decoration: none;
+    background-color: white;
+
+    
+}
+
+
+.row{
+    width: 100%;
+    padding: 12px;
+   
+}
+
+label,input,textarea{
+    width: 100%;
+    height: 40px;
+    
+    
+}
+
+
+
+
+
+.Footer-2 {
+    display: none;
+    
+}
+
+.Footer-2 a {
+    text-decoration: none;
+    color: black;
+}
+.socials {
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+footer h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-payment h1{
+    text-align: center;
+}
+
+ 
+.container-payment{
+    width: 100%;
+    height: 500px;
+    border: 5px solid white;
+    padding: 30px;
+    justify-content:space-around;
+    
+    display: flex;
+    flex-direction: column;    
+}
+
+
+.first-row{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+.container-payment a{
+    background-color: lightsalmon;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+
+.images img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

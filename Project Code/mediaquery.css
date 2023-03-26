@@ -1,0 +1,55 @@
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightskyblue;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .icons {
+        display: none;
+
+    }
+
+    nav {
+        display: flex;
+    }
+
+    header {
+        grid-template-columns: auto 1fr auto;
+    }
+
+    .card {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+
+    
+
+    
+    
+
+   
+
+    
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: lightpink;
+    }
+
+    .card {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .review{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
